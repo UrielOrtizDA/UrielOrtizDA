@@ -4,7 +4,7 @@
 ¡Hola! 👋 Soy **Uriel Ortiz**, Analista de Datos con experiencia en **Power BI, Tableau, SQL, Python y Excel**.  
 Este repositorio contiene el código de mi **portfolio personal**, publicado en GitHub Pages:
 
-👉 [https://TUUSUARIO.github.io](https://TUUSUARIO.github.io)
+👉 [https://github.com/UrielOrtizDA/UrielOrtizDA/blob/main/index.html] 
 
 ---
 
@@ -32,13 +32,13 @@ Este repositorio contiene el código de mi **portfolio personal**, publicado en 
 ---
 
 ## 📩 Contacto
-- 📧 Email: [uriel.b.ortiz@outlook.com](mailto:uriel.b.ortiz@outlook.com)  
-- 🔗 LinkedIn: [www.linkedin.com/in/uriel-baltazar-ortiz-3018a7357] (https://linkedin.com/in/tuusuario)
+- 📧 Email: [uriel.b.ortiz@outlook.com] 
+- 🔗 LinkedIn: [www.linkedin.com/in/uriel-baltazar-ortiz-3018a7357]
 
 ---
 
 ✍️ **Nota:** Esta es la versión de código de mi portfolio.  
-Para ver el sitio en vivo, visita 👉 [https://TUUSUARIO.github.io](https://TUUSUARIO.github.io)
+Para ver el sitio en vivo, visita 👉 [https://github.com/UrielOrtizDA/UrielOrtizDA/blob/main/index.html] 
 
 <!--
 **UrielOrtizDA/UrielOrtizDA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
