@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Uriel Ortiz · Data Analyst</title>
+  <meta name="description" content="Portfolio de Uriel Ortiz: Analista de Datos especializado en Power BI, Tableau y SQL." />
+  <style>
+    :root {
+      --bg: #0f172a;        /* fondo */
+      --card: #111827;      /* tarjetas */
+      --text: #e5e7eb;      /* texto principal */
+      --muted: #94a3b8;     /* texto suave */
+      --accent: #22d3ee;    /* cian */
+      --accent2: #a78bfa;   /* lila */
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+      background: linear-gradient(180deg, #0b1220, #0f172a 35%, #0f172a);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* Header y navegación */
+    header { position: sticky; top: 0; z-index: 10; background: rgba(15, 23, 42, .7); backdrop-filter: blur(6px); border-bottom: 1px solid rgba(148,163,184,.15); }
+    nav { display: flex; gap: 16px; justify-content: flex-end; max-width: 1024px; margin: 0 auto; padding: 12px 24px; }
+    nav a { color: var(--muted); text-decoration: none; padding: 6px 10px; border-radius: 12px; }
+    nav a:hover, nav a:focus { color: var(--text); background: rgba(148,163,184,.12); outline: none; }
+
+    /* Layout general */
+    .container { max-width: 1024px; margin: 0 auto; padding: 24px; }
+    section { padding: 32px 24px; }
+
+    /* Hero */
+    .hero { display: grid; grid-template-columns: 1.2fr .8fr; gap: 24px; align-items: center; padding: 48px 24px 16px; }
+    @media (max-width: 800px) { .hero { grid-template-columns: 1fr; } }
+    h1 { font-size: clamp(28px, 6vw, 44px); margin: 0 0 10px; }
+    .subtitle { color: var(--muted); font-size: clamp(16px, 3.2vw, 18px); margin: 0 0 24px; }
+
+    .btns { display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn { display: inline-block; padding: 10px 14px; border-radius: 999px; border: 1px solid rgba(148,163,184,.25); text-decoration: none; color: var(--text); }
+    .btn.primary { background: linear-gradient(135deg, var(--accent), var(--accent2)); border: 0; color: #0b1220; font-weight: 600; }
+
+    .badges { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
+    .badge { font-size: 14px; padding: 6px 10px; border-radius: 999px; background: rgba(148,163,184,.12); border: 1px solid rgba(148,163,184,.18); color: var(--text); }
+
+    /* Secciones */
+    .section-title { font-size: 22px; margin-bottom: 12px; }
+
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    @media (max-width: 900px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+
+    .card { background: rgba(17, 24, 39, .6); border: 1px solid rgba(148,163,184,.15); border-radius: 20px; padding: 18px; }
+    .card h3 { margin: 0 0 6px; font-size: 18px; }
+    .card p { margin: 0 0 10px; color: var(--muted); }
+
+    .tags { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 12px; }
+    .tag { font-size: 12px; padding: 4px 8px; border: 1px solid rgba(148,163,184,.2); border-radius: 999px; color: var(--muted); }
+
+    .links a { margin-right: 10px; color: var(--accent); text-decoration: none; }
+    .links a:hover { text-decoration: underline; }
+
+    /* Timeline */
+    .timeline { border-left: 2px dashed rgba(148,163,184,.25); margin-left: 8px; padding-left: 16px; }
+    .item { margin: 12px 0; }
+    .item strong { display: block; }
+
+    /* Contacto */
+    .contact { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 700px) { .contact { grid-template-columns: 1fr; } }
+    label { display: block; margin-bottom: 8px; }
+    input, textarea { width: 100%; padding: 10px; border-radius: 12px; border: 1px solid rgba(148,163,184,.25); background: rgba(15,23,42,.6); color: var(--text); }
+    button[type="submit"] { cursor: pointer; }
+
+    footer { padding: 24px; color: var(--muted); text-align: center; border-top: 1px solid rgba(148,163,184,.15); }
+    small a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Navegación principal">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="inicio">
+      <div>
+        <h1>Hola, soy Uriel Ortiz <span aria-hidden="true">👋</span></h1>
+        <p class="subtitle">Analista de Datos · Power BI · Tableau · SQL</p>
+        <div class="btns">
+          <a class="btn primary" href="#" target="_blank" rel="noopener">Ver CV</a>
+          <a class="btn" href="mailto:tuemail@example.com">Escríbeme</a>
+          <a class="btn" href="https://www.linkedin.com/in/tuusuario" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <div class="badges" aria-label="Habilidades">
+          <span class="badge">Power BI</span>
+          <span class="badge">Tableau</span>
+          <span class="badge">SQL</span>
+          <span class="badge">Python</span>
+          <span class="badge">Excel</span>
+          <span class="badge">Git & GitHub</span>
+        </div>
+      </div>
+      <div>
+        <!-- Imagen/Avatar opcional -->
+        <div class="card" role="img" aria-label="Ilustración de datos">
+          <h3 style="margin:0;">📊 Portafolio de Analítica</h3>
+          <p>Dashboards, modelos de datos y storytelling.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <h2 class="section-title">🚀 Proyectos Destacados</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Dashboard de Ventas (Power BI)</h3>
+          <p>KPIs, margen, segmentación por país y producto, navegación por solapas.</p>
+          <div class="tags">
+            <span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Modelo estrella</span>
+          </div>
+          <div class="links">
+            <a href="https://github.com/USUARIO/REPO1" target="_blank" rel="noopener">Código</a>
+            <a href="https://app.powerbi.com/..." target="_blank" rel="noopener">Demo</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Customer Analytics (Tableau)</h3>
+          <p>Story con cohortes, churn y RFM para e‑commerce ficticio (15k filas).</p>
+          <div class="tags">
+            <span class="tag">Tableau</span><span class="tag">Cohortes</span><span class="tag">RFM</span>
+          </div>
+          <div class="links">
+            <a href="https://github.com/USUARIO/REPO2" target="_blank" rel="noopener">Código</a>
+            <a href="https://public.tableau.com/..." target="_blank" rel="noopener">Demo</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>SQL Playbook</h3>
+          <p>Consultas SQL para segmentación, LTV y control de calidad de datos.</p>
+          <div class="tags">
+            <span class="tag">SQL</span><span class="tag">PostgreSQL</span><span class="tag">CTEs</span>
+          </div>
+          <div class="links">
+            <a href="https://github.com/USUARIO/REPO3" target="_blank" rel="noopener">Repositorio</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experiencia">
+      <h2 class="section-title">💼 Experiencia & Formación</h2>
+      <div class="timeline">
+        <div class="item">
+          <strong>Analista de Datos — Freelance</strong>
+          <span class="muted">2024–2025</span>
+          <p>Automatización de reportes y dashboards para stakeholders.</p>
+        </div>
+        <div class="item">
+          <strong>Certificaciones</strong>
+          <p>Power BI, SQL, Tableau.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2 class="section-title">📩 Contacto</h2>
+      <div class="contact">
+        <!-- Opción 1: formulario (puedes usar Formspree u otro servicio y poner tu ID en action) -->
+        <form action="https://formspree.io/f/tu_form_id" method="POST">
+          <label>Tu email
+            <input type="email" name="email" required />
+          </label>
+          <label>Mensaje
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Enviar</button>
+        </form>
+        <!-- Opción 2: enlaces directos -->
+        <div class="card">
+          <p>Prefieres escribir directo:</p>
+          <p><a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+          <p><a href="https://www.linkedin.com/in/tuusuario" target="_blank" rel="noopener">linkedin.com/in/tuusuario</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>© <span id="y"></span> Uriel Ortiz — Hecho con HTML + CSS. <a href="#inicio">Volver arriba ↑</a></small>
+  </footer>
+
+  <script>
+    // Año automático en el footer
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
