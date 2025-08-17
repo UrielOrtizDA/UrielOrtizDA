@@ -33,7 +33,7 @@ Este repositorio contiene el código de mi **portfolio personal**, publicado en 
 
 ## 📩 Contacto
 - 📧 Email: [uriel.b.ortiz@outlook.com](mailto:uriel.b.ortiz@outlook.com)  
-- 🔗 LinkedIn: [https://www.linkedin.com/in/uriel-baltazar-ortiz-3018a7357](https://linkedin.com/in/tuusuario)
+- 🔗 LinkedIn: [www.linkedin.com/in/uriel-baltazar-ortiz-3018a7357] (https://linkedin.com/in/tuusuario)
 
 ---
 
