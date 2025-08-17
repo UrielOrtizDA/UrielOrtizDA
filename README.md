@@ -32,8 +32,8 @@ Este repositorio contiene el código de mi **portfolio personal**, publicado en 
 ---
 
 ## 📩 Contacto
-- 📧 Email: [tuemail@example.com](mailto:uriel.b.ortiz@outlook.com)  
-- 🔗 LinkedIn: [linkedin.com/in/tuusuario](https://linkedin.com/in/tuusuario)
+- 📧 Email: [uriel.b.ortiz@outlook.com](mailto:uriel.b.ortiz@outlook.com)  
+- 🔗 LinkedIn: [https://www.linkedin.com/in/uriel-baltazar-ortiz-3018a7357](https://linkedin.com/in/tuusuario)
 
 ---
 
