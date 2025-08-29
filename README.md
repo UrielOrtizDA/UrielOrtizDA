@@ -12,7 +12,7 @@ Este repositorio contiene el código de mi **portfolio personal**, publicado en 
 
 - **📊 Dashboard de Ventas (Power BI)**  
   KPIs, márgenes, segmentación por país y producto, navegación por solapas.  
-  [🔗 Ver demo](https://app.powerbi.com/...) (https://drive.google.com/file/d/1b5W4_YYbib874swCw-lcGa-wtQ5VSH1S/view?usp=sharing) · [📂 Repositorio](https://github.com/TUUSUARIO/REPO1)
+  [🔗 Ver demo](https://app.powerbi.com/...) · [📂 Repositorio](https://github.com/TUUSUARIO/REPO1)
 
 - **📈 Customer Analytics (Tableau)**  
   Story con cohortes, churn y RFM para un e-commerce ficticio de 15k filas.  
