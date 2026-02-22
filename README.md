@@ -1,7 +1,7 @@
 ## Hi there 👋
 # 🌐 Portfolio de Uriel Ortiz
 
-¡Hola! 👋 Soy **Uriel Ortiz**, Analista de Datos con experiencia en **Power BI, Tableau, SQL, Python y Excel**.  
+¡Hola! 👋 Soy **Uriel Ortiz**, Analista de Datos con experiencia en **Power BI, Tableau, SQL y Excel**.  
 Este repositorio contiene el código de mi **portfolio personal**, publicado en GitHub Pages:
 
 👉 [https://github.com/UrielOrtizDA/UrielOrtizDA/blob/main/index.html] 
@@ -25,9 +25,10 @@ Este repositorio contiene el código de mi **portfolio personal**, publicado en 
 ---
 
 ## 🛠️ Tecnologías
-- Power BI, Tableau, SQL  
+- Power BI  
 - Excel  
-- Git & GitHub  
+- Tableau
+- SQL  
 
 ---
 
